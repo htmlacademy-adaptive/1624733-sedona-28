@@ -12,109 +12,108 @@
 
 
 </head>
-<body class="page__body">
+<body class="page-body">
 <header class="page-header">
-  <a class="main-header__logo" href="#">
-    <img class="main-header__logo-image" src="img/icon-logo.png" width="185" height="96" alt="logo sedona">
+  <a class="page-header__logo" href="#">
+    <img class="page-header__logo-image" src="img/icon-logo.png" width="185" height="96" alt="logo sedona">
   </a>
   <nav class="main-nav">
     <button class="main-nav__toggle" type="button">
       <span class="visially-hidden">Открыть меня</span>
     </button>
     <div class="main-nav__wrapper">
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item site-list__item--current">
-          <a href="">Главная</a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">фото и видео</a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">Форма отзыва</a>
-        </li>
-        <li class="site-list__item">
-          <a href="#">HTML academy</a>
-        </li>
-      </ul>
+      <button class="menu menu-open" type="button">Меню</button>
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="/source/Catalog.html">фото и видео</a>
+          </li>
+          <li>
+            <a href="#">Форма отзыва</a>
+          </li>
+          <li>
+            <a href="#">HTML academy</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </nav>
 </header>
 <main class="page-main">
   <div class="page-main__images">
-    <img src="img/icon-welcome.svg" width="115" height="28" alt="welcome">
-    <img src="img/icon-the-gorgeouy.svg" width="157" height="18" alt="to the gorgeous">
-    <img src="img/icon-sedona.svg" width="282" height="49" alt="SEDONA">
-    <img src="img/icon-becouse.svg" width="180" height="48" alt="becouse the Grand Canyon lucky">
+    <img src="img/icon-welcome.svg" width="" alt="welcome">
+    <img src="img/icon-the-gorgeouy.svg" alt="to the gorgeous">
+    <img src="img/icon-sedona.svg" alt="SEDONA">
+    <img src="img/icon-becouse.svg" alt="becouse the Grand Canyon lucky">
   </div>
   <div class="page-main__intro">
-    <h2 class="page-main__intro-text">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+    <h1 class="page-main__intro-text">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
   </div>
-  <div class="page-main__advantages-list">
+  <section class="page-main__advantages-list">
+    <h2 class="visially-hidden">Главные примущества</h2>
     <!--1block-->
     <div class="page-main__advantages-item">
-      <div class="advantages-item__main-text">
-        <p class="advantages-item__title">Настоящий городок</p>
-        <p class="advantages-item__subtitle">&mdash;№1&mdash;</p>
-        <p class="advantages-item__slogan">Седона не атракцион для туристов, там течет своя жизнь</p>
+      <div class="page-main__advantages-text">
+        <p class="page-main__advantages-title">Настоящий городок</p>
+        <p class="page-main__advantages-subtitle">&mdash;№1&mdash;</p>
+        <p class="page-main__advantages-slogan">Седона не атракцион для туристов, там течет своя жизнь</p>
       </div>
-      <div class="advantages-item__image">
-        <img src="advantages-item__icon" width="800" height="256" alt="Седона - уютный городок">
-      </div>
+        <img src="/source/img/photo-city.jpg" alt="Седона - уютный городок">
     </div>
     <!--2block-->
     <div class="page-main__features-list">
-      <div class="features-list__item">
-        <img src="features-list__icon" width="" height="" alt="Дом">
-        <p class="features-list__title">Жильё</p>
-        <p class="features-list__slogan">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">Жильё</p>
+        <p class="page-main__features-slogan">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
       </div>
-      <div class="features-list__item">
-        <img src="features-list__icon" width="" height="" alt="Еда">
-        <p class="features-list__title">Еда</p>
-        <p class="features-list__slogan">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">Еда</p>
+        <p class="page-main__features-slogan">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </div>
-      <div class="features-list__item">
-        <img src="features-list__icon" width="" height="" alt="Сувениры">
-        <p class="features-list__title">Сувениры</p>
-        <p class="features-list__slogan">Не только китайского, но и местного производства!</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">Сувениры</p>
+        <p class="page-main__features-slogan">Не только китайского, но и местного производства!</p>
       </div>
     </div>
     <!--3block-->
     <div class="page-main__advantages-item">
-      <div class="advantages-item__main-text">
-        <p class="advantages-item__title">Там есть Мост дьявола</p>
-        <p class="advantages-item__subtitle">&mdash; №2 &mdash;</p>
-        <p class="advantages-item__slogan">Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+      <div class="page-main__advantages-image">
+        <img src="/source/img/photo-bridge.jpg"  alt="Мост дьявола">
       </div>
-      <div class="advantages-item__image">
-        <img src="advantages-item__icon" width="" height="" alt="Мост дьявола">
+      <div class="page-main__advantages-text">
+        <p class="page-main__advantages-title">Там есть Мост дьявола</p>
+        <p class="page-main__advantages-subtitle">&mdash; №2 &mdash;</p>
+        <p class="page-main__advantages-slogan">Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
       </div>
     </div>
     <!--4block-->
     <div class="page-main__features-list">
-      <div class="features-list__item">
-        <p class="features-list__title">Небольшая<br>площадь</p>
-        <p class="features-list__subtitle">&mdash;№3&mdash;</p>
-        <p class="features-list__slogan">Все достопримечательности<br> находятся очень близко</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">Небольшая<br>площадь</p>
+        <p class="page-main__features-subtitle">&mdash;№3&mdash;</p>
+        <p class="page-main__features-slogan">Все достопримечательности<br> находятся очень близко</p>
       </div>
-      <div class="features-list__item">
-        <p class="features-list__title">красивая<br>дорога</p>
-        <p class="features-list__subtitle">&mdash;№4&mdash;</p>
-        <p class="features-list__slogan">ехать в седону из лас-вегаса совсем<br> не скучно!</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">красивая<br>дорога</p>
+        <p class="page-main__features-subtitle">&mdash;№4&mdash;</p>
+        <p class="page-main__features-slogan">ехать в седону из лас-вегаса совсем<br> не скучно!</p>
       </div>
-      <div class="features-list__item">
-        <p class="features-list__title">мало<br> туристов</p>
-        <p class="features-list__subtitle">&mdash;№5&mdash;</p>
-        <p class="features-list__slogan">большинство едет в гранд каньон<br> и толпится там</p>
+      <div class="page-main__features-item">
+        <p class="page-main__features-title">мало<br> туристов</p>
+        <p class="page-main__features-subtitle">&mdash;№5&mdash;</p>
+        <p class="page-main__features-slogan">большинство едет в гранд каньон<br> и толпится там</p>
       </div>
     </div>
-  </div>
+  </section>
   <!--booking-->
   <div class="page-main__booking">
     <h2>Заинтересовались?</h2>
     <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне</p>
-    <button class="button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+    <button class="button" type="button">найти гостиницу</button>
   </div>
   <div>
     <!--map-->
